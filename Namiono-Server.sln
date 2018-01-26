@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Namiono-Server", "Namiono-Server\Namiono-Server.csproj", "{06D65038-1D07-4884-9457-34E4A6AA4D2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06D65038-1D07-4884-9457-34E4A6AA4D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D65038-1D07-4884-9457-34E4A6AA4D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D65038-1D07-4884-9457-34E4A6AA4D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D65038-1D07-4884-9457-34E4A6AA4D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62532F2A-4C52-42F7-BF2A-0825F1693327}
+	EndGlobalSection
+EndGlobal
