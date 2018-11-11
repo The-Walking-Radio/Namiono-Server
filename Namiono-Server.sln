@@ -3,18 +3,44 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Namiono-Backend", "Namiono-Backend\Namiono-Backend.csproj", "{89C659C3-0B87-49AE-8ADC-2BC83E7B0CA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Namiono-Provider", "Namiono-Provider\Namiono-Provider.csproj", "{59A1DE63-22EA-44F4-9936-A361D80F139C}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Namiono-Server", "Namiono-Server\Namiono-Server.csproj", "{06D65038-1D07-4884-9457-34E4A6AA4D2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89C659C3-0B87-49AE-8ADC-2BC83E7B0CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C659C3-0B87-49AE-8ADC-2BC83E7B0CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C659C3-0B87-49AE-8ADC-2BC83E7B0CA6}.Debug|x64.ActiveCfg = Debug|x64
+		{89C659C3-0B87-49AE-8ADC-2BC83E7B0CA6}.Debug|x64.Build.0 = Debug|x64
+		{89C659C3-0B87-49AE-8ADC-2BC83E7B0CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C659C3-0B87-49AE-8ADC-2BC83E7B0CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C659C3-0B87-49AE-8ADC-2BC83E7B0CA6}.Release|x64.ActiveCfg = Release|x64
+		{89C659C3-0B87-49AE-8ADC-2BC83E7B0CA6}.Release|x64.Build.0 = Release|x64
+		{59A1DE63-22EA-44F4-9936-A361D80F139C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A1DE63-22EA-44F4-9936-A361D80F139C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A1DE63-22EA-44F4-9936-A361D80F139C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{59A1DE63-22EA-44F4-9936-A361D80F139C}.Debug|x64.Build.0 = Debug|Any CPU
+		{59A1DE63-22EA-44F4-9936-A361D80F139C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A1DE63-22EA-44F4-9936-A361D80F139C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A1DE63-22EA-44F4-9936-A361D80F139C}.Release|x64.ActiveCfg = Release|Any CPU
+		{59A1DE63-22EA-44F4-9936-A361D80F139C}.Release|x64.Build.0 = Release|Any CPU
 		{06D65038-1D07-4884-9457-34E4A6AA4D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{06D65038-1D07-4884-9457-34E4A6AA4D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D65038-1D07-4884-9457-34E4A6AA4D2C}.Debug|x64.ActiveCfg = Debug|x64
+		{06D65038-1D07-4884-9457-34E4A6AA4D2C}.Debug|x64.Build.0 = Debug|x64
 		{06D65038-1D07-4884-9457-34E4A6AA4D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06D65038-1D07-4884-9457-34E4A6AA4D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D65038-1D07-4884-9457-34E4A6AA4D2C}.Release|x64.ActiveCfg = Release|x64
+		{06D65038-1D07-4884-9457-34E4A6AA4D2C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

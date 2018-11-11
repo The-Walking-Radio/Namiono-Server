@@ -1,18 +1,19 @@
 ﻿using System;
+using Namiono_Backend;
 
-namespace Namiono_Frontend
+namespace Namiono_Wrapper
 {
 	internal class Program
 	{
 		private static void Main(string[] args)
 		{
 			var s = string.Empty;
-			using (var frontend = new Frontend(args))
+			using (var backend = new Backend<Guid>(args))
 			{
 				while (s != "!exit")
 					s = Console.ReadLine();
 
-				frontend.Close();
+				backend.Close();
 			}
 		}
 	}
